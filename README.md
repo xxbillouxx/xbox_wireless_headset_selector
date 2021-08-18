@@ -16,9 +16,9 @@ The workaround is based on 2 main things:
   More details: https://askubuntu.com/questions/1004712/how-to-keep-the-audio-profile-at-a2dp-while-using-a-mic-with-bluetooth-headset
 
 
-So we must switch manually, depending on:
-* if we want to enable the mic (with a bad output quality) for a meeting
-* or if we want to mainly listen music (better output quality).
+So we must switch manually A2DP<->mSBC, depending on:
+* if we want to enable the mic (with a bad output quality) for a meeting (mSBC)
+* or if we want to mainly listen music (better output quality) (A2DP)
 
 Instead of opening the Ubuntu Settings/Sound Menu, I created a small script to switch by clicking on 2 buttons : 'Music mode' and 'Meeting mode'
 
